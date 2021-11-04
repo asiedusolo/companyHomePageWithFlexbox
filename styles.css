@@ -186,7 +186,7 @@ main{
     width: 25%;
     /* height: 350px; */
     border-radius: 10px;
-    box-shadow: 1px 1px 1px 1px #eee;
+    box-shadow: 1px 1px 4px 1px #666;
 }
 
 .employees div .image-container{
