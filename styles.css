@@ -3,7 +3,6 @@
 }
 body{
     background-color: #fff;
-    margin: 20px 10%;
 }
 h1{
     font-size: 2.75rem;
@@ -28,10 +27,13 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 100px;
+    margin: 20px 10%;
+
     /* border: 1px solid blue; */
 }
 
 nav .logo{
+    width: 150px;
     /* border: 1px solid red; */
 }
  h5 span{
@@ -60,7 +62,9 @@ nav ul li a{
         margin-bottom: 50px;
     }
     nav .logo{
+        /* border: 1px solid green; */
         text-align: center;
+        margin: auto;
     }
     nav ul li{
         display: block;
@@ -69,11 +73,17 @@ nav ul li a{
     }
 }
 
+main{
+    background-color: #eee;
+    padding: 30px;
+}
 .banner{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 100px;
+    margin: 20px 10%;
+
 }
 .banner .callToAction{
     width: 35%;
@@ -117,6 +127,7 @@ nav ul li a{
     text-decoration: none;
     border: none;
     padding: 15px 35px;
+    border-radius: 5px;
 }
 
 .green{
@@ -141,6 +152,9 @@ nav ul li a{
 
 
     }
+    .banner .callToAction h1{
+        text-align: center;
+    }
     .banner .callToAction .img-container img{
         width: 100%;
     }
@@ -163,6 +177,8 @@ nav ul li a{
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    margin: 20px 10%;
+
 }
 
 .employees > div{
@@ -203,4 +219,15 @@ nav ul li a{
         margin: 25px auto;
     }
     
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+footer > h2, h4{
+    margin-bottom: 20px;
+}
+footer > h2 span{
+    font-style: italic;
+    font-size: 2.25rem;
 }
