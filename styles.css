@@ -186,6 +186,7 @@ main{
     width: 25%;
     /* height: 350px; */
     border-radius: 10px;
+    background-color: white;
     box-shadow: 1px 1px 4px 1px #666;
 }
 
